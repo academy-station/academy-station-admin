@@ -1,5 +1,5 @@
 import { Button, Table, Tag } from "antd";
-import { PaperStatus, PaperType } from "../const";
+import { PaperStatus, PaperType } from "../settings";
 
 export const columns = [
   {
@@ -69,6 +69,7 @@ export const columns = [
 ];
 
 export interface PaperItem {
+  key: string | number;
   user_name: string;
   paper_name: string;
   submit_time: string;
