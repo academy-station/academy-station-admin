@@ -1,0 +1,5 @@
+{
+  "name" : "academy-station-admin",
+  "script" : "serve -s build/ -l tcp://0.0.0.0:5000",
+  "cwd": "/home/mark/projects/academy-station-admin"
+}

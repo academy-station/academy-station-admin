@@ -3,7 +3,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="1f0bc8c3-7af0-4b7a-afbe-5ae051f0e8a7" name="mark-online-academy-station-admin" url="http://nanchuan.site:5000">
-        <fileTransfer rootFolder="/home/mark/projects/academy-station-admin" accessType="SFTP" host="nanchuan.site" port="22" sshConfigId="0893846e-b7fc-4aa1-9a69-a49300782413" sshConfig="mark@nanchuan.site:22 password">
+        <fileTransfer rootFolder="/home/mark/projects/academy-station-admin" accessType="SFTP" host="nanchuan.site" port="22" sshConfigId="0893846e-b7fc-4aa1-9a69-a49300782413" sshConfig="root@nanchuan.site:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="41798b56-89ff-46e7-a20c-9e2db09f766c" name="linux" url="">
+        <fileTransfer accessType="SFTP" host="nanchuan.site" port="22" sshConfigId="0893846e-b7fc-4aa1-9a69-a49300782413" sshConfig="root@nanchuan.site:22 password">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
